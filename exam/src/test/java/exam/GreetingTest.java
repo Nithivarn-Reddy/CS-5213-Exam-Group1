@@ -8,7 +8,7 @@ public class GreetingTest {
 
 	@Test
 	public void test() {
-		assertEquals("Hello Bob", Exam.getGreeting("Bobby"));
+		assertEquals("Hello Bob", Exam.getGreeting("Bob"));
 	}
 
 }
