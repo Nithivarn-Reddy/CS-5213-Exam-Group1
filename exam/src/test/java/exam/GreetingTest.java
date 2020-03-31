@@ -20,6 +20,6 @@ public class GreetingTest {
 	@Test
 	public void testGoodBye() 
 	{
-		assertEquals("Goodbye a", Exam.getGoodbye("a"));
+		assertEquals("Goodbye a", Exam.getGoodBye("a"));
 	}
 }
