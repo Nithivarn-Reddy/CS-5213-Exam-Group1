@@ -1,4 +1,4 @@
-# CS-5213-Exam
+# CS-5213-Exam-Group1
 - This repository is configured with GitHub actions to test code pushed to the repo. Code is in Java and tested using JUnit 4. Apache Maven is used to help test the code.
 - There are 3 actions configured:
 1. GitHub hosted Ubuntu runner
