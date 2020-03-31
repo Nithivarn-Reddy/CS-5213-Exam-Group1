@@ -22,4 +22,9 @@ public class GreetingTest {
 	{
 		assertEquals("Goodbye a", Exam.getGoodBye("a"));
 	}
+	@Test
+	public void testGoodBye() 
+	{
+		assertEquals("Goodbye Jim", Exam.getGoodBye("Jim"));
+	}
 }
