@@ -1,8 +1,8 @@
 package exam;
 
-import static org.junit.Assert.*;
-
 import org.junit.Test;
+
+import static org.junit.Assert.*;
 
 public class GreetingTest {
 
@@ -33,6 +33,6 @@ public class GreetingTest {
 	{
 		String tmp = Exam.getNameLength("Jim");
 		int valTmp = Integer.parseInt(tmp.substring(tmp.length()-1));
-		assertThat("Length", valTmp, greaterThan(4));
+		assertTrue(valTmp >= 4);
 	}
 }
