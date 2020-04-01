@@ -12,15 +12,14 @@ public class Exam
 		return ("Goodbye " + name);
 	}
 
-	public static String getNameLength(String name)
+	public static int getNameLength(String name)
 	{ 
-		return("Name Length = " + String.valueOf(name.length()));
+		return name.length();
 	}
 	
-	public static String getNameLast(String name)
+	public static char getLastCharacter(String name)
 	{
-		String tmp = "Name Length = " + String.valueOf(name.length());
-		return(tmp.substring(tmp.length()-1));
+		return name.charAt(name.length()-1);
 	}
 
 	public static void main(String [] args)

@@ -31,8 +31,7 @@ public class GreetingTest {
 	@Test
 	public void testGetNameLength()
 	{
-		String tmp = Exam.getNameLength("Jim");
-		int valTmp = Integer.parseInt(tmp.substring(tmp.length()-1));
-		assertTrue(valTmp >= 4);
+		int length = Exam.getNameLength("Jim");
+		assertEquals(length, 3);
 	}
 }
