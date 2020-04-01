@@ -27,4 +27,12 @@ public class GreetingTest {
 	{
 		assertEquals("Goodbye Jim", Exam.getGoodBye("Jim"));
 	}
+
+	@Test
+	public void testGetNameLength()
+	{
+		String tmp = Exam.getNameLength("Jim");
+		int valTmp = Integer.parseInt(tmp.substring(tmp.length()-1));
+		assertThat("Length", valTmp, greaterThan(4));
+	}
 }
