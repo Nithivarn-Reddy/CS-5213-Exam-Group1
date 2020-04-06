@@ -34,4 +34,11 @@ public class GreetingTest {
 		int length = Exam.getNameLength("Jim");
 		assertEquals(length, 3);
 	}
+
+	@Test
+	public void testGetLastCharacter()
+	{
+		assertEquals('m', Exam.getLastCharacter);
+	}
+
 }
