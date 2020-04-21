@@ -5,3 +5,13 @@
 2. Google Cloud Platform (GCP) Virtual Machine
 3. Docker running on GCP
 - This is for Group 1, Jay McKinley and Patrick Zhong.
+
+Instructions:
+Github Hosted Maven:
+
+Running on GCP:
+Follow instructions here to add GCP: https://help.github.com/en/actions/hosting-your-own-runners/adding-self-hosted-runners
+
+Docker GCP:
+Add a Dockerfile to the project with these contents:
+
