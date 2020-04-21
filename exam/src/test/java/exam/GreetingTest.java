@@ -38,7 +38,7 @@ public class GreetingTest {
 	@Test
 	public void testGetLastCharacter()
 	{
-		assertEquals('m', Exam.getLastCharacter("Exam"));
+		assertEquals('m', Exam.getLastCharacter("Exa"));
 	}
 
 }
