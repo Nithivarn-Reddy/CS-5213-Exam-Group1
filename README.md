@@ -7,4 +7,4 @@
 - This is for Group 1, Jay McKinley and Patrick Zhong.
 
 - Instructions:
-  - See Exam Instructions.pdf for instructions on how this was configured.
+  - See exam Instructions.pdf for instructions on how this was configured.
